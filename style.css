@@ -163,3 +163,35 @@ h1{
     margin: 10px 20px;
 }
 /* ========footer and======= */
+/* =======mobile disply====== */
+@media only screen and (max-width: 688px){
+    header{
+        padding-bottom: 0%;
+    }
+    .webhead{
+        text-align: center;
+        display: inline;
+    }
+    .match-info{
+        width: 100%;
+        background: none;
+        border: 0;
+    }
+    .fullmatch{
+        display: block;
+    }
+    .matchcard{
+        display: block;
+    }
+    .matchcard2{
+        width: 100%;
+        
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ /* ======tables display====== */
+
+ 
