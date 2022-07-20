@@ -7,7 +7,6 @@ body{
     padding: 0%;
     box-sizing: border-box;
 }
-
 /* ======header styles start====== */
 header{
     margin-top: 40px;
@@ -16,7 +15,6 @@ header{
     justify-content: center;
 }
 .webhead{
-
     align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,6 +46,12 @@ button{
     font-weight: 800;
     font-size: 16px;
 }
+button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid red;
+    padding: 9px 17px;
+}
 /* =======header style end====== */
 
 /* =======match info start====== */
@@ -56,9 +60,10 @@ button{
     border: 1px solid black;
     width: 20%;
     padding: 40px;
-    border-radius: 7px;
+    border-radius: 10px;
     text-align: center;
     height: 30%;
+    box-shadow: 5px 10px 8px #888888;
 }
 .all-info {
     margin-top: 20px;
@@ -101,6 +106,7 @@ button{
     border: 1px solid lightgray;
     border-radius: 10px;
     width: 90%;
+    box-shadow: 5px 10px 18px #888888;
 }
 .matchcard2 img{
     width: 100%;
@@ -108,11 +114,14 @@ button{
     border-top-left-radius: 5px;
     
 }
-
 .Transfer{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 15px;
+}
+.Transfer a:hover{
+    border: 2px solid black;
+    font-weight: 700;
 }
 .Transfer a{
     color: black;
@@ -181,6 +190,7 @@ h1{
         width: 100%;
         background: none;
         border: 0;
+        
     }
     .fullmatch{
         display: block;
@@ -190,6 +200,7 @@ h1{
     }
     .matchcard2{
         width: 100%;
+        
         
     }
     .list{
