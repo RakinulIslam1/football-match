@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ========Commmom style======= */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* ======header styles start====== */
+header{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.webhead{
+
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+.title{
+    padding: 40px;
+}
+.title h1{
+    font-size: 50px;
+}
+.player-img{
+   text-align: center;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    border: 0ch;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+}
+/* =======header style end====== */
+
+/* =======match info start====== */
+.match-info{
+    background-color: black;
+    border: 1px solid black;
+    width: 20%;
+    padding: 40px;
+    border-radius: 7px;
+}
+.all-info{
+    margin-top: 20px;
+}
+.all-info a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 5px;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+}
