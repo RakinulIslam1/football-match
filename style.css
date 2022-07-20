@@ -79,11 +79,14 @@ button:hover{
     font-size: 15px;
     font-weight: 700;
 }
-#red{
+.all-info:hover{
     background-color: red;
 }
+#red{
+    /* background-color: red; */
+}
 #red a{
-    color: white;
+    /* color: white; */
 }
 /* =======match info end====== */
 
