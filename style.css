@@ -31,6 +31,7 @@ header{
 }
 .title h1{
     font-size: 50px;
+    text-align: start;
 }
 .player-img{
    text-align: center;
@@ -172,6 +173,10 @@ h1{
         text-align: center;
         display: inline;
     }
+    .title h1{
+        font-size: 50px;
+        text-align: center;
+    }
     .match-info{
         width: 100%;
         background: none;
@@ -193,5 +198,29 @@ h1{
     }
 }
  /* ======tables display====== */
-
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    header{
+            padding-bottom: 0%;
+            margin-bottom: 30px;
+        }
+        #tablet{
+            display: none;
+        }
+        .webhead{
+            text-align: center;
+            display: inline;
+        }
+        .title h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .matchcard{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .match-info{
+            width: 30%;
+        }
+}
+/* ==================mobo and tab end============= */
  
