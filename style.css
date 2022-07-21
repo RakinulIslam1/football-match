@@ -141,6 +141,9 @@ button:hover{
     display: flex;
     gap: 45px;
 }
+.flags{
+    display: flex;
+}
 /* =======match card end===== */
 
 /* =======footer start======== */
@@ -174,6 +177,12 @@ h1{
     font-size: 30px;
     color: white;
     margin: 10px 20px;
+}
+#last-B{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 45%;
+    margin-right: 40%
 }
 /* ========footer and======= */
 /* =======mobile disply====== */
