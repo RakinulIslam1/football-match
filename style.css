@@ -190,19 +190,26 @@ h1{
     header{
         padding-bottom: 0%;
     }
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .webhead{
         text-align: center;
         display: inline;
     }
     .title h1{
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
     }
     .match-info{
         width: 100%;
         background: none;
         border: 0;
-        
+        box-shadow: none; 
+    }
+    .all-info{
+        box-shadow: 5px 10px 18px #888888;
     }
     .fullmatch{
         display: block;
@@ -211,9 +218,11 @@ h1{
         display: block;
     }
     .matchcard2{
+        width: 100%;   
+    }
+    .player-img{
         width: 100%;
-        
-        
+        padding-left: 0%;   
     }
     .list{
         flex-direction: column;
